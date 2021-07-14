@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>MoveToFit</title>
+</head>
+
+<body>
+    <nav class="navigation">
+        <div>
+            <ul data-aos="fade-right">
+                <li><a>Home</a></li>
+                <li><a>Services</a></li>
+                <li><a>Contact Us</a></li>
+                <li><a>About US</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="home">
+        <div class="homecontainer" >
+            <div data-aos="fade-up">
+                <h1>WELCOME TO MY WEBSITE</h1>
+            </div>
+            <div data-aos="fade-up">
+                <h2>We Believe</h2>
+            </div>
+            <div data-aos="fade-up">
+                <p>The quality of your health determines the quality of your life and nothing is more important than
+                    that.</p>
+            </div>
+        </div>
+    </section>
+    <section id="services">
+        <div data-aos="fade-right">
+            <h3>Services</h3>
+        </div>
+        <div class="servicecontent">
+            <div class="servicecontainer" data-aos="fade-up-right">
+                <h5>Free Personal Training</h5>
+            </div>
+            <div class="servicecontainer" data-aos="fade-up">
+                <h5>Free Recommandation</h5>
+            </div>
+            <div class="servicecontainer" data-aos="fade-up">
+                <h5>Free Nutritional Counseling</h5>
+            </div>
+            <div class="servicecontainer" data-aos="fade-up-left">
+                <h5>Free Fitness Kit</h5>
+            </div>
+        </div>
+    </section>
+    <section id="contactus">
+        <div  data-aos="fade-right">
+            <h6>Contact Us</h6>
+        </div>
+        <div class="formcontainer" data-aos="fade-up">
+            <form id="form">
+                <div class="input">
+                    <input name="name" placeholder="Name"></input>
+                </div>
+                <div class="input">
+                    <input type="number" name="phoneno" placeholder="Phone Number"></input>
+                </div>
+                <div class="input">
+                    <input type="email" name="email" placeholder="Email"></input>
+                </div>
+            </form>
+            <button id="btn" type="submit">Send</button>
+        </div>
+    </section>
+    <section id="aboutus">
+        <footer class="footer">
+            <div class="content" style="font-size: 13px;font-family: Verdana, Geneva, Tahoma, sans-serif;">
+                <h8>Copyright © 2021 | All Rights Reserved</h8>
+            </div>
+            <div class="content" style="font-size: 15px;font-family: Verdana, Geneva, Tahoma, sans-serif;">
+                <h8>Email : movetofit@gmail.com</h8>
+            </div>
+            <div class="images">
+                <ul>
+                    <li><img class="img" src="../images/inst.png" alt="Image"></li>
+                    <li><img class="img" src="../images/facebook.jpg" alt="Image"></li>
+                    <li><img class="img" src="../images/whatsapp1.png" alt="Image"></li>
+                </ul>
+            </div>
+        </footer>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 230, 
+            delay: 200, 
+            duration: 1000,
+        });
+    </script>
+</body>
+
+</html>
